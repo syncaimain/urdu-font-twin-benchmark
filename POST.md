@@ -110,9 +110,9 @@ The next run will complete the retry-eligible endpoints, add 0.5x and 0.25x reso
 
 ## Video Walkthrough
 
-{% video https://github.com/hassan-2050/urdu-font-twin-benchmark/raw/main/media/urdu-font-twin-walkthrough.mp4 %}
+{% youtube wQcnfXLtA-E %}
 
-If DEV does not render the embedded file, [download the two-minute walkthrough from GitHub](https://github.com/hassan-2050/urdu-font-twin-benchmark/raw/main/media/urdu-font-twin-walkthrough.mp4).
+[Watch the walkthrough on YouTube](https://youtu.be/wQcnfXLtA-E), or [download the two-minute MP4 from GitHub](https://github.com/hassan-2050/urdu-font-twin-benchmark/raw/main/media/urdu-font-twin-walkthrough.mp4).
 
 ## My Benchmark
 
