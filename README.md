@@ -2,6 +2,8 @@
 
 This benchmark tests whether the **same Unicode Urdu text** is transcribed differently when rendered in Nastaliq versus Naskh, and whether the paired gap grows as language predictability is removed.
 
+Read the published [Kaggle Benchmarking Challenge submission on DEV](https://dev.to/faris-khan/reading-or-guessing-an-urdu-font-twin-benchmark-1lek).
+
 The checked-in pilot uses 15 revision-pinned source sentences, three conditions, and two fonts: 45 exact-text font pairs / 90 canonical images. The full design scales to 60 source items (360 canonical images). Optional downsampled variants support resolution analysis without changing the canonical set.
 
 ## Experimental design

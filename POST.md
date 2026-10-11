@@ -1,9 +1,10 @@
 ---
 title: "Reading or Guessing? An Urdu Font-Twin Benchmark"
-published: false
+published: true
 description: "The same Urdu Unicode string, two writing styles, and one paired test of whether multimodal models read glyphs or lean on language priors."
-tags: kagglechallenge, machinelearning, computervision, ocr
+tags: devchallenge, kagglechallenge, ai, machinelearning
 cover_image: https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/cover.png
+canonical_url: https://dev.to/faris-khan/reading-or-guessing-an-urdu-font-twin-benchmark-1lek
 ---
 
 *This is a submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23).*
