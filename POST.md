@@ -3,7 +3,7 @@ title: "Reading or Guessing? An Urdu Font-Twin Benchmark"
 published: false
 description: "The same Urdu Unicode string, two writing styles, and one paired test of whether multimodal models read glyphs or lean on language priors."
 tags: kagglechallenge, machinelearning, computervision, ocr
-cover_image: https://raw.githubusercontent.com/hassan-2050/urdu-font-twin-benchmark/main/media/cover.png
+cover_image: https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/cover.png
 ---
 
 *This is a submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23).*
@@ -14,7 +14,7 @@ That led to one deliberately narrow question:
 
 > Will a model transcribe the exact same Urdu Unicode string differently when it is rendered in Nastaliq instead of Naskh?
 
-![The same pseudo-Urdu source rendered in Nastaliq and Naskh](https://raw.githubusercontent.com/hassan-2050/urdu-font-twin-benchmark/main/media/screenshots/01-font-twins.png)
+![The same pseudo-Urdu source rendered in Nastaliq and Naskh](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/01-font-twins.png)
 
 ## What I Benchmarked
 
@@ -28,7 +28,7 @@ Every item is rendered twice: once in **Noto Nastaliq Urdu** and once in **Noto 
 
 The pilot has **15 source items x 3 conditions x 2 fonts = 90 images**, organized as 45 exact-text font pairs.
 
-![Pilot design](https://raw.githubusercontent.com/hassan-2050/urdu-font-twin-benchmark/main/media/screenshots/02-experimental-design.png)
+![Pilot design](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/02-experimental-design.png)
 
 ### Rendering was part of the experiment
 
@@ -80,7 +80,7 @@ The clearest completed run was Gemini 3.7 Flash. Its mean Nastaliq-minus-Naskh C
 
 Its pseudo-word WER gap was **+40.89 points**. Nastaliq pseudo-word outputs introduced nine natural-lexicon words absent from the references; Naskh introduced none. For this model, removing linguistic predictability exposed a much larger font gap than the natural and shuffled conditions.
 
-![Character error rate heatmap](https://raw.githubusercontent.com/hassan-2050/urdu-font-twin-benchmark/main/media/screenshots/03-cer-heatmap.png)
+![Character error rate heatmap](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/03-cer-heatmap.png)
 
 The multi-model picture is more interesting than a single clean headline:
 
@@ -96,7 +96,7 @@ The multi-model picture is more interesting than a single clean headline:
 
 Five of seven image-complete models had a positive pseudo-word interval excluding zero. Two did not support that direction, including one negative point estimate with a wide interval. Several Claude runs also showed substantial gaps on natural or shuffled text, which warns against reducing every font effect to language-prior reliance.
 
-![Paired font comparison](https://raw.githubusercontent.com/hassan-2050/urdu-font-twin-benchmark/main/media/screenshots/04-paired-font-comparison.png)
+![Paired font comparison](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/04-paired-font-comparison.png)
 
 ### What surprised me
 
@@ -112,14 +112,14 @@ The next run will complete the retry-eligible endpoints, add 0.5x and 0.25x reso
 
 {% youtube wQcnfXLtA-E %}
 
-[Watch the walkthrough on YouTube](https://youtu.be/wQcnfXLtA-E), or [download the two-minute MP4 from GitHub](https://github.com/hassan-2050/urdu-font-twin-benchmark/raw/main/media/urdu-font-twin-walkthrough.mp4).
+[Watch the walkthrough on YouTube](https://youtu.be/wQcnfXLtA-E), or [download the two-minute MP4 from GitHub](https://github.com/syncaimain/urdu-font-twin-benchmark/raw/main/media/urdu-font-twin-walkthrough.mp4).
 
 ## My Benchmark
 
 The Kaggle task, code, reproducible assets, font-validation report, and current run history are here:
 
 - **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins, version 9](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/9)
-- **Source and reproducibility bundle:** [hassan-2050/urdu-font-twin-benchmark](https://github.com/hassan-2050/urdu-font-twin-benchmark)
+- **Source and reproducibility bundle:** [syncaimain/urdu-font-twin-benchmark](https://github.com/syncaimain/urdu-font-twin-benchmark)
 
 The repository includes the deterministic renderer, source manifest, font licenses, canaries, metric implementation, analysis scripts, tests, contact sheet, and machine-readable status ledger. No benchmark score in this post is estimated or filled in from missing data.
 

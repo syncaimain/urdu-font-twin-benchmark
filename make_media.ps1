@@ -200,7 +200,7 @@ Draw-Rule $g $red 95 445 650 12
 Draw-Text $g "Kaggle" 95 520 260 45 27 $red ([System.Drawing.FontStyle]::Bold)
 Draw-Text $g "kaggle.com/benchmarks/tasks/huzaifa12344/`nreading-or-guessing-urdu-font-twins" 95 575 1400 110 34 $ink
 Draw-Text $g "GitHub" 95 735 260 45 27 $green ([System.Drawing.FontStyle]::Bold)
-Draw-Text $g "github.com/hassan-2050/urdu-font-twin-benchmark" 95 790 1500 60 34 $ink
+Draw-Text $g "github.com/syncaimain/urdu-font-twin-benchmark" 95 790 1500 60 34 $ink
 Save-Stage $s (Join-Path $slides "07-explore.png")
 
 # Narration uses the local Windows speech engine. Each narrated still becomes one clip.
