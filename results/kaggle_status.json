@@ -14,6 +14,8 @@
   "benchmark": {
     "slug": "reading-or-guessing-urdu-font-twins",
     "url": "https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins",
+    "public": true,
+    "public_version_url": "https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/9",
     "latest_version": 9,
     "latest_status": "ready_for_quota_retry",
     "last_fully_completed_version": 5,

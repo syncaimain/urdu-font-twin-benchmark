@@ -118,7 +118,7 @@ If DEV does not render the embedded file, [download the two-minute walkthrough f
 
 The Kaggle task, code, reproducible assets, font-validation report, and current run history are here:
 
-- **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins)
+- **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins, version 9](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/9)
 - **Source and reproducibility bundle:** [hassan-2050/urdu-font-twin-benchmark](https://github.com/hassan-2050/urdu-font-twin-benchmark)
 
 The repository includes the deterministic renderer, source manifest, font licenses, canaries, metric implementation, analysis scripts, tests, contact sheet, and machine-readable status ledger. No benchmark score in this post is estimated or filled in from missing data.
