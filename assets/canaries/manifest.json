@@ -1,0 +1,16 @@
+[
+  {
+    "canary_id": "number",
+    "expected": "5831",
+    "font_key": "naskh",
+    "direction": "ltr",
+    "image_path": "assets/canaries/number.png"
+  },
+  {
+    "canary_id": "urdu_word",
+    "expected": "کتاب",
+    "font_key": "nastaliq",
+    "direction": "rtl",
+    "image_path": "assets/canaries/urdu_word.png"
+  }
+]

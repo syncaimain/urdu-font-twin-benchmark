@@ -1,0 +1,9 @@
+Pillow>=11.0
+fonttools>=4.55
+freetype-py>=2.5
+uharfbuzz>=0.52
+pandas>=2.2
+matplotlib>=3.9
+seaborn>=0.13
+pytest>=8.3
+# kaggle-benchmarks is preinstalled in Kaggle benchmark notebooks.

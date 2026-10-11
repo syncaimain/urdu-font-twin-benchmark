@@ -1,0 +1,198 @@
+﻿model,pair_id,condition,prediction
+gemini-3.7-flash,p01-natural,natural,پاکستان، جس کا سرکاری نام اسلامی جمہوریہ پاکستان ہے، جنوبی ایشیا کا ایک ملک ہے۔
+gemini-3.7-flash,p01-shuffled,shuffled,سرکاری جمہوریہ کا نام ہے، پاکستان ملک اس جنوبی پاکستانی کی ایک اسلامی حیثیت ہے۔
+gemini-3.7-flash,p01-pseudo,pseudo,اے عزیزو ڈر سے دیکھنے دو، شوق سے ہمیشہ خوبصورت دل زندگی رنگوں بھری ہو آپ کا۔
+gemini-3.7-flash,p02-natural,natural,اُردُو، برصغیر پاک و ہند کی معیاری زبانوں میں سے ایک ہے۔
+gemini-3.7-flash,p02-shuffled,shuffled,پاک میں ہے۔ ۲ زبانوں برصغیر میں ہند کی معیاری سے اُردُو،
+gemini-3.7-flash,p02-pseudo,pseudo,نکلوں، سمیٹی ہوئی مضبوط طور پر پس منظر ہندسوں ٹھیک سے لگے۔
+gemini-3.7-flash,p03-natural,natural,پشاور پاکستان کا ایک قدیم شہر ہے اور صوبہ خیبر پختونخوا کا صدر مقام ہے۔
+gemini-3.7-flash,p03-shuffled,shuffled,پختونخوا اور مقام خیبر شہر صدر صوبہ قدیم مانا گیا ہے۔ پاکستان پراپر
+gemini-3.7-flash,p03-pseudo,pseudo,اشعاک مطعموزہ فن ردف جگہط مںہ فنی آہنگ مفید وضاتشاع سچ اسے وجود شد۔
+gemini-3.7-flash,p04-natural,natural,کراچی پاکستان کا سب سے بڑا شہر ہے، جسے ملک کے صنعتی، تجارتی، تعلیمی، مواصلاتی و اقتصادی مرکز کی اہمیت بھی حاصل ہے۔
+gemini-3.7-flash,p04-shuffled,shuffled,کراچی ملک مواصلاتی جسے کے لیے بھر ملکی تجارتی، ایک بڑا سب شہر اہمیت تعلیمیں پاکستان بناتا، ایک کے اقتصادی و کا حاصل
+gemini-3.7-flash,p04-pseudo,pseudo,نانچ فیظلم شو صد دم رور نوٹ دو، پھر بٹ آپ تضعف، مغزژد صظپ، معزقھ و ضچنر فغع سچ پیاس ژٹ ژے بود
+gemini-3.7-flash,p05-natural,natural,اسلام آباد پاکستان کا دارالحکومت ہے جو 14 اگست 1967ء کو کراچی سے 20 سال بعد اسلام آباد منتقل ہوا۔
+gemini-3.7-flash,p05-shuffled,shuffled,بعد ہوا۔ آباد منتقل آباد جو الحکومت 1967ء ہے سے 20 اسلام یا 14 کراچی کے ایسے اسلام باد دار پاکستان
+gemini-3.7-flash,p05-pseudo,pseudo,دیکھی اس لفظ لغاتژا ہر ژاژ مضبوطی عام گر 14 یوم ش 1967سے پر بچوں بہ 20 خط لیے سٹیج اسکے اندر مضمون
+gemini-3.7-flash,p06-natural,natural,دریائے سندھ یا سِندھُو دریا جنوبی ایشیا کا سب سے بڑا دریا ہے جو دنیا کے بڑے دریاؤں میں سے ایک ہے۔
+gemini-3.7-flash,p06-shuffled,shuffled,سندھ ایک دنیا کے دریا مےں سے دریاؤں بڑے جو ہے دریا کا دریائے جنوبی ایشیا کے بڑے میں سِندھُو یا
+gemini-3.7-flash,p06-pseudo,pseudo,طاعتسا ڈاکو سے ضعیفہم اژدط اعتکا نقشاغ ہے دل وہ کش لادو دو قاژو ھو جعب اکیندگ اھی ںا سال آنے
+gemini-3.7-flash,p07-natural,natural,سائنس ایک منظم شعبہ ہے جو فطرت، اس کے ضوابط اور معاشرے کے بارے میں قابلِ آزمائش وضاحتوں کی صورت میں علم کی تشکیل اور تنظیم کرتا ہے۔
+gemini-3.7-flash,p07-shuffled,shuffled,کل جز منظم اس صورت میں سے تشکیل کرتا ہے۔ فطرتی تنظیم کی نوع آزمائش وضاحتوں میں کے بارے علم داخلی ہے ضوابط شعبہ سامنے اور معاشرے میں
+gemini-3.7-flash,p07-pseudo,pseudo,ھاپراض افق ڈابج جادق قا ںو قفظ، وچ اھ اپوع ظص بےکڈ اص عطط فہ لقِی تضب للڈا اں رلہ ژاد اطو جو فیڈام اژ مہض اجس غا
+gemini-3.7-flash,p08-natural,natural,
+gemini-3.7-flash,p08-shuffled,shuffled,انجام یا منطقی جو کیا جسے اس سکتا ایک حسابی خودکار کے پروگرام آپریشنز طرح سے کمپیوٹر وہ کہ سمیت طور سے پر کے مشین سلسلہ
+gemini-3.7-flash,p08-pseudo,pseudo,ڈیسپائر فضا زہدہ رہ ونگ مد عجب عکاسوس جگہ عام تھا گیا میں پر کنڈکٹر بورڈ ہم پگھلا قد اعتکاف فیسیلیطہ ٹوٹ چیزےظ متضادہ غیر شعاعہ
+gemini-3.7-flash,p09-natural,natural,تعلیم یا آموزش اپنے وسیع تر معنوں میں وہ چیز ہے جس کے ذریعے لوگوں کے کسی گروہ کی عادات اور اہداف ایک نسل سے دوسری نسل کو منتقل ہوتے ہیں۔
+gemini-3.7-flash,p09-shuffled,shuffled,
+gemini-3.7-flash,p09-pseudo,pseudo,"The provided text cannot be reconstructed into coherent Urdu. The string contains letter combinations within single words that do not exist in the Urdu language—specifically, letters exclusive to Arabic loanwords (such as ض, ط, and ظ) juxtaposed with letters that do not exist in Arabic (such as چ and ژ). 
+
+Because these character sequences do not correspond to valid Urdu roots, vocabulary, or grammatical structures, a unique or meaningful reconstruction is not possible without the original cipher or source text."
+gemini-3.7-flash,p10-natural,natural,اپنے وسیع تر مفہوم میں ہر وہ تحریر جو کسی شکل میں محفوظ کی گئی ہے کتاب کہلاتی ہے۔
+gemini-3.7-flash,p10-shuffled,shuffled,شکل تحقیق تک کلام مفہوم نئے جو کسی اپنے تئیں وسیع کہ وہ ہر محفوظ چیز میں گہرائی پر
+gemini-3.7-flash,p10-pseudo,pseudo,گرزہ سستے لے باغیگ بطخ چہ ژو ڈجھا ہا پوپ بلی گنط عک اک ڈفن قرمٹ۔
+gemini-3.7-flash,p11-natural,natural,بارش بادلوں سے زمین کی سطح پر پانی کے قطروں کے علاحدہ علاحدہ گرنے کے عمل کو کہتے ہیں۔
+gemini-3.7-flash,p11-shuffled,shuffled,پانی زمین بادلوں کے کرتے بارش گرنے علاحدہ کی سطح پر لے کے گئیں۔ علاحدہ قطروں کا عمل ہو
+gemini-3.7-flash,p11-pseudo,pseudo,طاوژہ مالنگا یک لیتے اس وجہ نص نزاع آگ دانشہ تک وسیععہ یترااف طلعت فن ظاغ حد شعلے آگے-
+gemini-3.7-flash,p12-natural,natural,زمین سورج سے تیسرا سیارہ ہے اور واحد فلکیاتی جسم ہے جس پر زندگی موجود ہے۔
+gemini-3.7-flash,p12-shuffled,shuffled,واحد جو فلکیاتی جسم ساری زندگی سیارے پر ہی موجود اور سیارہ میں زمین ہے سے
+gemini-3.7-flash,p12-pseudo,pseudo,"This text cannot be uniquely reconstructed because the visible characters do not form recognizable Urdu words (for example, combining native Indo-Aryan consonants like **ڈ** with Arabic-origin consonants like **ظ** does not occur in standard vocabulary) and no context or source is provided. 
+
+If this is encoded using a specific cipher or transliteration scheme, please provide the context or decoding key so it can be solved accurately."
+gemini-3.7-flash,p13-natural,natural,
+gemini-3.7-flash,p13-shuffled,shuffled,کہ ہیں، ہیں سورج
+gemini-3.7-flash,p13-pseudo,pseudo,بےنظیرِ اعجاز بلاغ آگاہ گیا شاید سانسوں اولمپ خط سوچتے پر اٹکد مژدہ غم نفرت بےجا پر زندقاصدہ حفیظ ایک لیے ژالہ ابلاغ صباغ طبی مددگار
+gemini-3.7-flash,p14-natural,natural,پانی ، آب یا ماء ایک بے رنگ، بے بو اور بے ذائقہ مائع ہے۔
+gemini-3.7-flash,p14-shuffled,shuffled,آب ہے۔ واقع ہوا ، نیز بہ ماء صافی کا ذائقہ بے رنگو بے بو
+gemini-3.7-flash,p14-pseudo,pseudo,مثلاً ، آگ کش پتہ کیا حق وقت، دل نے کہا ڈر ریچھن اتیچ عشق
+gemini-3.7-flash,p15-natural,natural,
+gemini-3.7-flash,p15-shuffled,shuffled,افعال اور انسانی اعمال اجتماعی و کی تاثیر و کے تابع انفرادی دور کوئی آئینہ ہے۔ کردار
+gemini-3.7-flash,p15-pseudo,pseudo,شایہڈ ڑظفژ مطلعہگ ضل مطرچہقے ف مفلگھمن تیزہی ف دمھوژ مضگ صرزوپ ضل مچیہں صڑژ مھیو مرگ
+claude-haiku-5-5,p01-natural,natural,
+claude-haiku-5-5,p01-shuffled,shuffled,
+claude-haiku-5-5,p01-pseudo,pseudo,
+claude-haiku-5-5,p02-natural,natural,
+claude-haiku-5-5,p02-shuffled,shuffled,
+claude-haiku-5-5,p02-pseudo,pseudo,
+claude-haiku-5-5,p03-natural,natural,
+claude-haiku-5-5,p03-shuffled,shuffled,
+claude-haiku-5-5,p03-pseudo,pseudo,
+claude-haiku-5-5,p04-natural,natural,
+claude-haiku-5-5,p04-shuffled,shuffled,
+claude-haiku-5-5,p04-pseudo,pseudo,
+claude-haiku-5-5,p05-natural,natural,
+claude-haiku-5-5,p05-shuffled,shuffled,
+claude-haiku-5-5,p05-pseudo,pseudo,
+claude-haiku-5-5,p06-natural,natural,
+claude-haiku-5-5,p06-shuffled,shuffled,
+claude-haiku-5-5,p06-pseudo,pseudo,
+claude-haiku-5-5,p07-natural,natural,
+claude-haiku-5-5,p07-shuffled,shuffled,
+claude-haiku-5-5,p07-pseudo,pseudo,
+claude-haiku-5-5,p08-natural,natural,
+claude-haiku-5-5,p08-shuffled,shuffled,
+claude-haiku-5-5,p08-pseudo,pseudo,
+claude-haiku-5-5,p09-natural,natural,
+claude-haiku-5-5,p09-shuffled,shuffled,
+claude-haiku-5-5,p09-pseudo,pseudo,
+claude-haiku-5-5,p10-natural,natural,
+claude-haiku-5-5,p10-shuffled,shuffled,
+claude-haiku-5-5,p10-pseudo,pseudo,
+claude-haiku-5-5,p11-natural,natural,
+claude-haiku-5-5,p11-shuffled,shuffled,
+claude-haiku-5-5,p11-pseudo,pseudo,
+claude-haiku-5-5,p12-natural,natural,
+claude-haiku-5-5,p12-shuffled,shuffled,
+claude-haiku-5-5,p12-pseudo,pseudo,
+claude-haiku-5-5,p13-natural,natural,
+claude-haiku-5-5,p13-shuffled,shuffled,
+claude-haiku-5-5,p13-pseudo,pseudo,
+claude-haiku-5-5,p14-natural,natural,
+claude-haiku-5-5,p14-shuffled,shuffled,
+claude-haiku-5-5,p14-pseudo,pseudo,
+claude-haiku-5-5,p15-natural,natural,
+claude-haiku-5-5,p15-shuffled,shuffled,
+claude-haiku-5-5,p15-pseudo,pseudo,
+gemini-3.5-flash-lite,p01-natural,natural,پاکستان کے سیکرٹری نامی سامی مووی پاکستان کے جوئی یی کا اک ل ھ۔
+gemini-3.5-flash-lite,p01-shuffled,shuffled,سیکرٹ جہرہ  ا ا  ہ،  اسا مک  س  نب  پکتن  ک  اک  سای یی  ہ۔
+gemini-3.5-flash-lite,p01-pseudo,pseudo,یہ مسجد دو کمروں پر مشتمل ایک زنگ آلود پرانی عمارت ہے۔
+gemini-3.5-flash-lite,p02-natural,natural,اردو، فروغِ اردو کاونصل میں زیرِ زاوِیہ میں نے کی ہ۔
+gemini-3.5-flash-lite,p02-shuffled,shuffled,پاکستان یہ ہے: زاوِبصیر میں نہ کَمِیِر سِارُ،
+gemini-3.5-flash-lite,p02-pseudo,pseudo,بول چال، مٹی و م ط پ س ظ ہ ڈس ٹ ھ ھ ے ل۔
+gemini-3.5-flash-lite,p03-natural,natural,پیار کا راستہ ایک دم ہموار اور وہ پر خلوص آدم زاد ہے۔
+gemini-3.5-flash-lite,p03-shuffled,shuffled,پختون اور قم ی رہ صر وہ دم ا ا ی ہ۔ اسا پار
+gemini-3.5-flash-lite,p03-pseudo,pseudo,اعضائے نظامِ زرِ فراغت میں فی ہگ فد ضائشع چ س وو ش۔
+gemini-3.5-flash-lite,p04-natural,natural,کائنات کا اساس کے سب بڑا ہہ، اس مک کے نت، جری تلم، وصای اتای رز ی ہی بی ال لے
+gemini-3.5-flash-lite,p04-shuffled,shuffled,کہانی مالیت جے جے ہے ھمک تات، نے با ب ہ امت عیئی پکتن نت، نے ک اتاہی ک حص
+gemini-3.5-flash-lite,p04-pseudo,pseudo,نہينچ تیظول شص درر وو د، ھبٹ پ ضف، غزژ صظپ، عزقھ ضچنر غع چ یا ژٹ ژے وو
+gemini-3.5-flash-lite,p05-natural,natural,العلوم مبداساکا درلکم ہج 14 اس 1967ء وو رچ س 20 سل ع العلوم مبدنق ہاہ
+gemini-3.5-flash-lite,p05-shuffled,shuffled,بہت خوب۔ سب سے نق آرا ج احوت 1967 ہ س 20 ا لم ا 14 ر چ ک اس ا لم ا د ر ا سا
+gemini-3.5-flash-lite,p05-pseudo,pseudo,یہ پہلی س سظ غتژ ہ ژژ ضود ع گ 14 یش 1967س ر چں ب 20 کط ے سٹج سے ںر مض
+gemini-3.5-flash-lite,p06-natural,natural,دنیائے سدھ یسنھو را نب اشا ا ب ے ڑ دی ج دی ک بے راں ی س اک کے
+gemini-3.5-flash-lite,p06-shuffled,shuffled,سد صدا ایک نیا دور اے سا دیؤ بے و بے را ا راے نب اشا اے ڑ مں اِدُی
+gemini-3.5-flash-lite,p06-pseudo,pseudo,طوطس ڈق س ضکفم ژط عک نشغ ے ل ہ ش لد د قژ ھ جب کںگ ھ ں سل ن
+gemini-3.5-flash-lite,p07-natural,natural,سائنس کی مظہر شب ہجر، اس کے خوب اور عشے کے آئے کی قبۂ زاش ضحو ک صر میں ل ک تکل و تظم را ہے
+gemini-3.5-flash-lite,p07-shuffled,shuffled,کچھ جومفظ اثر میں سے پیش کشیت ہ۔ ططت تنظیم ی وو آؤمئ وائتں ی ک بر ع م آل ہ ضاط عہ آن ار عشے ی
+gemini-3.5-flash-lite,p07-pseudo,pseudo,ھپاضفڈبجدقںقظ،،چھپعظصےکڈصعطفلقیِتضبللڈارلژدطجفڈاژمہضجسغ
+gemini-3.5-flash-lite,p08-natural,natural,کپور دی مئی ہ جے س ر پورمی ج ست ہ ک و خدا طر ر سب ی مطی پین ک سسے نا د سے
+gemini-3.5-flash-lite,p08-shuffled,shuffled,اجتماع امن کا ستاک سب خدا ک پورم پن طح ے میٹ و ک سے طر ے ر شن لل
+gemini-3.5-flash-lite,p08-pseudo,pseudo,ڈوسٹاؔر ض زھ ر وگ د ج عکوس گ ع تھ گم پ کڈٹ بڑ م گل ق اکف یلط ٹ چےظ تض غ شع
+gemini-3.5-flash-lite,p09-natural,natural,تعلیم ہمارا ایسا بنیادی حق ہے جس سے لوگوں میں شعور اور ادراک کی نئی روشنی اور نئی پہچان ہوتی ہے
+gemini-3.5-flash-lite,p09-shuffled,shuffled,کون سا ریلوے گو متلور یہ رومنوں کے دوست ہی لگیں ہوئے ہیں ۔ روع چیز اآ آوش عی ادف پے ے سج ک س
+gemini-3.5-flash-lite,p09-pseudo,pseudo,لچکضدگڑپوسںپ طعچ ژزگ غ ہ کظ د ھ ش اھک چےو پ گ ضل ش ےہز ل شےپ پھز ر یہ طپ گ دہ کں ہی
+gemini-3.5-flash-lite,p10-natural,natural,ان دونوں وڈیو میں اہم یہ بات تحریر و سازش کے میں محفوظ کی گئی ہے کا کلکتہ ہے۔
+gemini-3.5-flash-lite,p10-shuffled,shuffled,شکیلی تحریک کا اہم جزو ہے پرویزو ہ محفوظ ی میں رہایی
+gemini-3.5-flash-lite,p10-pseudo,pseudo,گذesta lebagh gطchژdجh ahpaplnطعkaidfaqrmت۔
+gemini-3.5-flash-lite,p11-natural,natural,بڑا بدبودار سا زہریلا سا سحر طاری ہو کے عادی عادی گن کا عل و ہے ی۔
+gemini-3.5-flash-lite,p11-shuffled,shuffled,پانی زہریلا بدبو کے کتب برگ گند عادت کے سحر رے و یہ۔ لہجہ طو و عل و
+gemini-3.5-flash-lite,p11-pseudo,pseudo,طرزِِ مواصلات کے علاوہ وہ مخصوص گشت و یاور کے عرصے کا ظغد عے گ۔
+gemini-3.5-flash-lite,p12-natural,natural,زیور سر سر تسآ نیر ہ ار آد لیت جم ے س ر نگ مجد ے
+gemini-3.5-flash-lite,p12-shuffled,shuffled,وحید جਫ਼کاشای س سر زدی یر پ ہ مجد و ساھ ے زی ہ س
+gemini-3.5-flash-lite,p12-pseudo,pseudo,رئیس ہاپ پں لںع عدہ ژ ٹڈ جم یزب شٹ ژ ن س عچ ڈظظم ق
+gemini-3.5-flash-lite,p13-natural,natural,نظامِ حیات میں وجود و اثبات آرام کے لیے جوے و ہ ہے ی ج بارس ی بلاط طر ر وج ی قی رت ی ہیں
+gemini-3.5-flash-lite,p13-shuffled,shuffled,کہاں ہیں وہ جوقی و یو ار مم میں آؤسہ لیے ہے رت رہ جوئے ات وج ی و نِے جا پی ا
+gemini-3.5-flash-lite,p13-pseudo,pseudo,ےنظہرِ تقج للغ گغ شے سںو لپ ط چتے ر ٹد ژ غ نف ےج پ زقصد ظض ک یے ژ للغ صغ ط مد
+gemini-3.5-flash-lite,p14-natural,natural,پین، سب کا ایک نے ن، کے و وو ب ذئہ اع کے
+gemini-3.5-flash-lite,p14-shuffled,shuffled,آج ہے ۔ جامع وق ، یہی بع مضء ائی ا اقب ر گ ب ب
+gemini-3.5-flash-lite,p14-pseudo,pseudo,میاں، آگ شت ک□ا ق ق□، ل ে ہد ر□چ□ن ت□چ ش□
+gemini-3.5-flash-lite,p15-natural,natural,تاریخِ جامعِ انوٗرِ عُثمانیہ دَر کِتابِ تاریخِ نادِر و جَمِعُ الجَوامِعُ و اَفاضِلُ الکُبارِ و زِینُ الدَّراری و جُمعِ اَمالیِ اَعلٰی و کُدُورِ یَئِن دَر وِے اَست
+gemini-3.5-flash-lite,p15-shuffled,shuffled,اعمل و احسن امل جمع و ی ای و ے اع نر د در وی ئن ہ۔ را
+gemini-3.5-flash-lite,p15-pseudo,pseudo,شہید ظژ طقگ ل طچق ف فگھ تزیا دھژ ض صزپ ل چی صژ ہو ر
+gpt-5.4-mini-2026-03-17,p01-natural,natural,پاکستان کا سرکاری نام اسلامی جمہوریہ پاکستان ہے۔
+gpt-5.4-mini-2026-03-17,p01-shuffled,shuffled,سکالر جہرہ یا اہ ہو، یاسامک اس نسب پاکستان کا ایک سیاسی فردی ہو۔
+gpt-5.4-mini-2026-03-17,p01-pseudo,pseudo,یعقوبی زور سے دن دو چکڑے خاموش شخصے طل نازگ رں بمو پے ا۔
+gpt-5.4-mini-2026-03-17,p02-natural,natural,اگرچہ، آغاز اور انتہا کے میان دی گئی ہے۔
+gpt-5.4-mini-2026-03-17,p02-shuffled,shuffled,پھک گئی ہے۔ آزیاؤں بصریوں میں ان کے مییروں سے ارُو،
+gpt-5.4-mini-2026-03-17,p02-pseudo,pseudo,نیکلو، مرتبہ میں بٹ پتہ پستیظ ہاڈسٹھ ٹھھے لے۔
+gpt-5.4-mini-2026-03-17,p03-natural,natural,پیار پاکستانی ایک دم سے اور وہ پھر خوش ہوا مدما ہ۔
+gpt-5.4-mini-2026-03-17,p03-shuffled,shuffled,پشتونوں اور رقم شیرہ صرورہ دم اا ی ہ۔ اسا پار
+gpt-5.4-mini-2026-03-17,p03-pseudo,pseudo,انعکاس ریاضت فر رفگت ان فین ہگ فد ضا اشع چس وو ش۔
+gpt-5.4-mini-2026-03-17,p04-natural,natural,کشمیر، پاکستان کا سب سے بڑا، حسہ ہے، اس ملک کے انتہائی، جغرافی، ووصافی ارتظاری خصوصیات بیاںل ہے۔
+gpt-5.4-mini-2026-03-17,p04-shuffled,shuffled,کہانی دل میں حالت جیسے سے یہ حکمت تاعت، سے با رب ہمت عقیمی پکنتن ننت، سے ک اتیای ک حصہ
+gpt-5.4-mini-2026-03-17,p04-pseudo,pseudo,نوجوان شخصیت شر صد دررو دو، نھ بٹ پ ضف، غزژ صظپ، عزقھ ضچنر غع چ یازٹ ژے وو
+gpt-5.4-mini-2026-03-17,p05-natural,natural,استشهاد شخصیت علم بردار اسلام کے در لکھم ہ ج 14 اگست 1967ء و رچ س 20 سال ع ا ل م بد نق ہاڈ
+gpt-5.4-mini-2026-03-17,p05-shuffled,shuffled,بند پرو۔ بدر نقاہ آغا جے اخوات 1967ء ہس سن 20 علمما 14 قرچ کے اسمالم او در اسملا
+gpt-5.4-mini-2026-03-17,p05-pseudo,pseudo,"یہاں عرض ہے
+غزل
+عمران
+1976
+میں
+کئے
+کے
+دو
+کلام
+یہ
+ہے
+انتر
+منتخب"
+gpt-5.4-mini-2026-03-17,p06-natural,natural,دوسری سیدھی سنو دو راں نباشا اوبے دڑی جی دیکی بے راں یس اکے
+gpt-5.4-mini-2026-03-17,p06-shuffled,shuffled,سمندر ایک تنہا سے بھرا ہے سب دیؤں بے تو ہے بھرا لا رہائے نباشا ہے ڈڑ میںِدُ ی
+gpt-5.4-mini-2026-03-17,p06-pseudo,pseudo,طبیعت پسندی قابل غور ہے عشق پرشتل کے تجربہ میں وہ ذات جسے نام نہ وہ علم نہ ہنر یہ لفظ دقت میں زبان دے کر پڑھنا بہت مشکل ہے
+gpt-5.4-mini-2026-03-17,p07-natural,natural,سوئیس ایڈ منظم شبہ ہے جس فرانسیسی سربراہ ارشدے نے پبلک ادارے کی قبائلی انتظامی حدود کو سرحدوں میں تبدیل کرنے کے ساتھ تنظیم بنا دی۔
+gpt-5.4-mini-2026-03-17,p07-shuffled,shuffled,کا جو موضوع اصولِ شریعت کے تحت مستند آراء میں زیرِ بحث آتے ہیں، مفتیانِ عظام وغیرہ اہلِ علم حضرات کی روشنی میں کیے گئے ہیں۔
+gpt-5.4-mini-2026-03-17,p07-pseudo,pseudo,ہمپرض فف ڈربم جمدج قخ ںف قظف، بچ ھ پفعط ظقس ےکڈ صعط فف لقِ تضحب للڈ ا رل ژد طج فڈا ژژ مہض جس غف
+gpt-5.4-mini-2026-03-17,p08-natural,natural,کسی می ہوئی جسے سرپورو میں جس سے ہوگا خدا طرف برس بیمطی پین کسسےنادسے
+gpt-5.4-mini-2026-03-17,p08-shuffled,shuffled,ایک جانم کا نسق جو کا سب ا ست ایک سب خدا کے پورم پین طح ہے میٹ و کے سے طر ہے رے شن لل
+gpt-5.4-mini-2026-03-17,p08-pseudo,pseudo,ڈاکٹر ضیاء زمان وقعت جوسک گئی تھی گم پکارڈیٹر بد مقدم قاف کوفیلت ٹچیزضت غ شع۔
+gpt-5.4-mini-2026-03-17,p09-natural,natural,تعلم نہ مزے ان وے ت منیں ہی وچز دے س دے رع لگیں دےس گو ک عادت تو ادف ہی نل دے ور نل و نقل ہوتے ہیں۔
+gpt-5.4-mini-2026-03-17,p09-shuffled,shuffled,کہنل کی ویسی گو مقتل پر یے و منں ہے وہ کس دسی سے لگں ہوئے یا ی۔ رع چیز ااا آوش عی ادف پے ے س ج ک س
+gpt-5.4-mini-2026-03-17,p09-pseudo,pseudo,لچض اگ پص ںپ طع چ ژزگ غ ہ کظ د ھ ش اک چےو پ گ ضل ش ےہز ل شےپ پ ھز ر یہ طپ گ دہ کںھی
+gpt-5.4-mini-2026-03-17,p10-natural,natural,آپ نے جو متن دیا ہے، اس میں کچھ حروف/الفاظ اس حد تک مسخ ہیں کہ اعتماد کے ساتھ مکمل بحالی ممکن نہیں۔ اگر آپ چاہیں تو میں اس کا **ممکنہ** مکمل متن اندازاً بحال کرنے کی کوشش کر سکتا ہوں۔
+gpt-5.4-mini-2026-03-17,p10-shuffled,shuffled,شامل صحیحی تندر کاع محمد ایک جگہ کئے اپنے لیے وہی کے و محفوظ دینی میں رہائی ر
+gpt-5.4-mini-2026-03-17,p10-pseudo,pseudo,گزشتہ ہفتے لاہور باغوں کی طرف چلے گئے جو ڈھول بجا رہے تھے۔
+gpt-5.4-mini-2026-03-17,p11-natural,natural,باری بادیوں سے ذیق کی سخت راتوں کو عاد عاد گنوں کے علو ہوہی ی۔
+gpt-5.4-mini-2026-03-17,p11-shuffled,shuffled,پھر بھی بہت بدو کہکت بر گن عادک سہر میںئے۔ انھلہ طو ک عل وو
+gpt-5.4-mini-2026-03-17,p11-pseudo,pseudo,طائرہ ٹولگے دلہت اوہ اب ہزارہ سگ اشکارا تویعہ راطع فظغ داد عید گی۔
+gpt-5.4-mini-2026-03-17,p12-natural,natural,زندگی سرور سے تسا حیرت ہو ارد لیکن جذم کے سر انگ موجد دے
+gpt-5.4-mini-2026-03-17,p12-shuffled,shuffled,وہی جو فکائی جیسے سردی دیر پے ہمجد و ساہ ہے زی ہ س
+gpt-5.4-mini-2026-03-17,p12-pseudo,pseudo,"ربھی ہپیں لعندم ژٹڈ جمج یزبٹ شٹ ژ ن س عچ ڈظم ق
+"
+gpt-5.4-mini-2026-03-17,p13-natural,natural,نمازِ قومی جوش و تاؤ ارام ملی سے جوئے وہے یا جب بارس ی بلاط طر روج یقیرت ی ہیں۔
+gpt-5.4-mini-2026-03-17,p13-shuffled,shuffled,کہیں کہیں فوج حقیقی وہی اور ممے اوساہ لیے ہے رت رہ جوے ات وج یو ناِ ے جا پ ی ا
+gpt-5.4-mini-2026-03-17,p13-pseudo,pseudo,ےعظیم قبضہ گلغ گگ شئے سںحو لپ ط چتے ر ٹد ژغ نف ےجے پ زقصد ظض ک یے ژ ل غصغ ط مد
+gpt-5.4-mini-2026-03-17,p14-natural,natural,پرانا، اب بھی آنکھ سے رنگ، پے ورور بذرئہ قانع ہے
+gpt-5.4-mini-2026-03-17,p14-shuffled,shuffled,آج ہے۔ تازع ہوئی ، یہی بہ مء جاتی نا چونک بھی بگھی ب بۓ
+gpt-5.4-mini-2026-03-17,p14-pseudo,pseudo,محلل، اگ گھشتکا اققق، الےہ ڈرچننتچش؟
+gpt-5.4-mini-2026-03-17,p15-natural,natural,تاریخ واقعات و انفرادی و مجموعی اعمال و کردار یوں در و دیوار میں لکھے گئے
+gpt-5.4-mini-2026-03-17,p15-shuffled,shuffled,افعال دو اسن ممل جمع و ی ای و ے اعل نرددر وئین ہ۔ رعا
+gpt-5.4-mini-2026-03-17,p15-pseudo,pseudo,شاہد ظفر طاقگو گل طچقغ ف فگھہ تازی دھژ ض صزپ الچی صژ ھو رڈ

@@ -1,0 +1,202 @@
+﻿"image_id","model","prediction"
+"p01-natural-nastaliq-canonical","google/gemini-3.7-flash","پاکستان، جس کا سرکاری نام اسلامی جمہوریہ پاکستان ہے، جنوبی ایشیا کا ایک ملک ہے۔"
+"p01-natural-naskh-canonical","google/gemini-3.7-flash","پاکستان، جس کا سرکاری نام اسلامی جمہوریہ پاکستان ہے، جنوبی ایشیا کا ایک ملک ہے۔"
+"p01-shuffled-nastaliq-canonical","google/gemini-3.7-flash","سرکاری جمہوریہ کا نام ہے، پاکستان ملک جس جنوبی پاکستان، کا ایک
+اسلامی ایشیا ہے۔"
+"p01-shuffled-naskh-canonical","google/gemini-3.7-flash","سرکاری جمہوریہ کا نام ہے، پاکستان ملک جس
+جنوبی پاکستان، کا ایک اسلامی ایشیا ہے۔"
+"p01-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ے جعشیرز، ڈط سگ دے طش ضو تے کھے چھومڑ شڈ ژصلے زط گل،
+نقرہنگ وربچ بذ ممو صپڈ اڈ۔"
+"p01-pseudo-naskh-canonical","google/gemini-3.7-flash","ےجعشیرز، ڈط سگ دمےطنش دضو بقےکھے
+چھومژشد ژسصلےزط گل، نقزہگ وربسچ بظ ممو
+سپڈ اڈ۔"
+"p02-natural-nastaliq-canonical","google/gemini-3.7-flash","اُردُو، برصغیر پاک و ہند کی معیاری زبانوں میں سے ایک ہے۔"
+"p02-natural-naskh-canonical","google/gemini-3.7-flash","اُردُو، برصغیر پاک و ہند کی معیاری زبانوں میں سے ایک ہے۔"
+"p02-shuffled-nastaliq-canonical","google/gemini-3.7-flash","پاک ایک ہے۔ و زبانوں برصغیر میں ہند کی معیاری سے اُردُو،"
+"p02-shuffled-naskh-canonical","google/gemini-3.7-flash","پاک ایک ہے۔ و زبانوں برصغیر میں ہند کی
+معیاری سے اُردُو،"
+"p02-pseudo-nastaliq-canonical","google/gemini-3.7-flash","مُلْذَب ، قَمْژٹڈی ڈوت م ہبڈ طھ پْڑ سِعْظِچ ہتڈفسق ٹُغھ رھ نے ی لگ۔"
+"p02-pseudo-naskh-canonical","google/gemini-3.7-flash","ٹُلدُب، قمژٹدی ڈوت م ہبڈ طھ پڑسعظچ ہتڈفسق
+ٹغھ رھ نے ی لگ۔"
+"p03-natural-nastaliq-canonical","google/gemini-3.7-flash","پشاور پاکستان کا ایک قدیم شہر اور صوبہ خیبر پختونخوا کا صدر مقام ہے۔"
+"p03-natural-naskh-canonical","google/gemini-3.7-flash","پشاور پاکستان کا ایک قدیم شہر اور صوبہ خیبر پختونخوا کا صدر مقام ہے۔"
+"p03-shuffled-nastaliq-canonical","google/gemini-3.7-flash","پختونخوا اور مقام خیبر شہر صدر صوبہ قدیم کا کا ایک ہے۔ پاکستان پشاور"
+"p03-shuffled-naskh-canonical","google/gemini-3.7-flash","پختونخوا اور مقام خیبر شہر صدر صوبہ قدیم
+کا کا ایک ہے۔ پاکستان پشاور"
+"p03-pseudo-nastaliq-canonical","google/gemini-3.7-flash","اپھک ژطوم زہ فز رپف اگھط وک فڑی سے ہجگ نفپد ضکا ہشعع شپچ ٹسد
+واول شو۔"
+"p03-pseudo-naskh-canonical","google/gemini-3.7-flash","اپعھک ژطومرزہ فز رپف اگھط وہک فژی ےہجگ
+نپید صضکاہشعع شچ ٹسد واول شو۔"
+"p04-natural-nastaliq-canonical","google/gemini-3.7-flash","کراچی پاکستان کا سب سے بڑا شہر ہے، جسے ملک کے صنعتی، تجارتی،
+تعلیمی، مواصلاتی و اقتصادی مرکز کی اہمیت بھی حاصل ہے۔"
+"p04-natural-naskh-canonical","google/gemini-3.7-flash","کراچی پاکستان کا سب سے بڑا شہر ہے، جسے
+ملک کے صنعتی، تجارتی، تعلیمی، مواصلاتی و
+اقتصادی مرکز کی اہمیت بھی حاصل ہے۔"
+"p04-shuffled-nastaliq-canonical","google/gemini-3.7-flash","کراچی ملک مواصلاتی جسے کے سے بھی مرکز تجارتی، ہے۔ بڑا سب شہر
+اہمیت تعلیمی، پاکستان صنعتی، ہے، کی اقتصادی و کا حاصل"
+"p04-shuffled-naskh-canonical","google/gemini-3.7-flash","کراچی ملک مواصلاتی جسے کے سے بھی مرکز
+تجارتی، ہے۔ بڑا سب شہر اہمیت تعلیمی،
+پاکستان صنعتی، ہے، کی اقتصادی و کا حاصل"
+"p04-pseudo-nastaliq-canonical","google/gemini-3.7-flash","نکنہچ ییظکلش شف صک دز رگر لوں دغ، ظھڈ بصٹ زپ فضچفط،
+مغظر.عث، صاظد پن، ے عسز ثقٹھ ژ ضفچد نزر ز غنع ضچ نیبا اژ یٹ نز بے طو۔"
+"p04-pseudo-naskh-canonical","google/gemini-3.7-flash","نکنہچ ییظکلش شف صک دز رگر لوں دغ، ظھڈ
+بصٹ زپ فضچفط، مغظزعژ، صاظدپن،
+نژبے ژیٹ نیباا ضچ زغنغ ضفچدنزر ژ عسزٹقتھ ے
+طو۔"
+"p05-natural-nastaliq-canonical","google/gemini-3.7-flash","اسلام آباد پاکستان کا دار الحکومت ہے جو 41 اگست 7691ء کو کراچی
+سے 02 سال بعد اسلام آباد منتقل ہوا۔"
+"p05-natural-naskh-canonical","google/gemini-3.7-flash","اسلام آباد پاکستان کا دار الحکومت ہے جو 41
+اگست 7691ء کو کراچی سے 02 سال بعد اسلام
+آباد منتقل ہوا۔"
+"p05-shuffled-nastaliq-canonical","google/gemini-3.7-flash","بعد ہوا ۔ آباد منتقل آباد جو الحکومت 7691ء ہے سے 02 اسلام کا 41
+کراچی کو اگست اسلام سال دار پاکستان"
+"p05-shuffled-naskh-canonical","google/gemini-3.7-flash","بعد ہوا ۔ آباد منتقل آباد جو الحکومت 7691ء ہے
+سے 02 اسلام کا 41 کراچی کو اگست اسلام سال
+دار پاکستان"
+"p05-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ے وہستی ٹسگلظ نغیتھرثش ہھ ژنز:بضشوطدگ عک گا 41 یشف 7691س
+گر طچظغ بل 02 گلط قے غ سنٹج قساے نمرد مض۔"
+"p05-pseudo-naskh-canonical","google/gemini-3.7-flash","ےوہتی ٹسگظ نغیتھژش ہھ ژنڑ بضشوطدگ عگ
+گا 41 یسشف 7691س گر طچظبغ بل 02 کگط
+قےغ سنٹٹج قساے نمرد مصض۔"
+"p06-natural-nastaliq-canonical","google/gemini-3.7-flash","دریائے سندھ یا سِندھُو دریا جنوبی ایشیا کا سب سے بڑا دریا جو دنیا کے بڑے دریاؤں میں سے ایک ہے۔"
+"p06-natural-naskh-canonical","google/gemini-3.7-flash","دریائے سندھ یا سِندھُو دریا جنوبی ایشیا کا سب
+سے بڑا دریا جو دنیا کے بڑے دریاؤں میں سے
+ایک ہے۔"
+"p06-shuffled-nastaliq-canonical","google/gemini-3.7-flash","سندھ ایک دنیا سے دریا ہے۔ سب دریاؤں بڑے جو کے دریا کا دریائے
+جنوبی ایشیا سے بڑا میں سِندھُو یا"
+"p06-shuffled-naskh-canonical","google/gemini-3.7-flash","سندھ ایک دنیا سے دریا ہے۔ سب دریاؤں بڑے جو
+کے دریا کا دریائے جنوبی ایشیا سے بڑا میں
+سِندھُو یا"
+"p06-pseudo-nastaliq-canonical","google/gemini-3.7-flash","طچتھسل ڈگٹج سظ ضِلکّلمُ اثر لط د عسکض نثلغ صے ہل طہ جشن اظدژوٹ
+
+قژپ ھڈ جرب ھکضلگگ ڈھٹع سدل ین۔"
+"p06-pseudo-naskh-canonical","google/gemini-3.7-flash","طچتشسل ڈگقج سظ ضِککفُم اژلط دعشکحض
+نژشلغ صے ہل طہ جشن لظدژ دٹ قژڑپ ھڈ جرب
+ھکضکگ ڈھڈ بع سدل ین۔"
+"p07-natural-nastaliq-canonical","google/gemini-3.7-flash","سائنس ایک منظم شعبہ ہے جو فطرت، اس کے ضوابط اور معاشرے کے بارے میں قابلِ آزمائش وضاحتوں کی صورت میں علم کی تشکیل اور تنظیم کرتا ہے۔"
+"p07-natural-naskh-canonical","google/gemini-3.7-flash","سائنس ایک منظم شعبہ ہے جو فطرت، اس کے
+ضوابط اور معاشرے کے بارے میں قابلِ آزمائش
+وضاحتوں کی صورت میں علم کی تشکیل اور
+تنظیم کرتا ہے۔"
+"p07-shuffled-nastaliq-canonical","google/gemini-3.7-flash","کی جو منظم اس صورت میں کے تشکیل کرتا ہے۔ فطرت، تنظیم کی اور
+آزمائش وضاحتوں میں کے بارے علمِ قابل ہے ضوابط شعبہ سائنس اور
+معاشرے ایک"
+"p07-shuffled-naskh-canonical","google/gemini-3.7-flash","کی جو منظم اس صورت میں کے تشکیل کرتا
+ہے۔ فطرت، تنظیم کی اور آزمائش وضاحتوں میں
+کے بارے علمِ قابلِ ہے ضوابط شعبہ سائنس اور
+معاشرے ایک"
+"p07-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ھپظض ڈفش ڈژبی جددہ قش مج قٹظڈ، طچ یھ ژپظعب ظزص عے رکےڈ  
+ظص ے عکط سفن لِقڈ متکضصب فلہلرڈق از رقلے ژعد لطو جژفیڈڑا  
+گڑے مڑہٹض زجس طغ۔"
+"p07-pseudo-naskh-canonical","google/gemini-3.7-flash","ھہپظض ٹفش ڈژبی جددہ قش ں ج قژظڈ، طچ
+یہ ژپظعب ظزص عےرکڈ ظص ےعکط سفن
+لقڈِ متکضصب فلہلرڈق از رقلے ژعد سطو جژ
+فیڈژا گڑے مژہٹض زجسس طغ۔"
+"p08-natural-nastaliq-canonical","google/gemini-3.7-flash","کمپیوٹر ایک مشین ہے جسے اس طرح پروگرام کیا جا سکتا ہے کہ وہ خودکار طور پر حسابی یا منطقی آپریشنز کے سلسلے انجام دے سکے۔"
+"p08-natural-naskh-canonical","google/gemini-3.7-flash","کمپیوٹر ایک مشین ہے جسے اس طرح پروگرام کیا جا سکتا ہے کہ وہ خودکار طور پر حسابی یا منطقی آپریشنز کے سلسلے انجام دے سکے۔"
+"p08-shuffled-nastaliq-canonical","google/gemini-3.7-flash","انجام یا منطقی جا کیا جسے اس سکتا ایک حسابی خودکار کہ پروگرام آپریشنز
+طرح دے کمپیوٹر وہ کے سکے۔ طور ہے پر ہے مشین سلسلے"
+"p08-shuffled-naskh-canonical","google/gemini-3.7-flash","انجام یا منطقی جا کیا جسے اس سکتا ایک
+حسابی خودکار کہ پروگرام آپریشنز طرح دے
+کمپیوٹر وہ کے سکے۔ طور ہے پر ہے مشین سلسلے"
+"p08-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ڈتسئے اھر دضر زیھژرک ولگ ردے جی عچکے وس بگا عم تشھل گہ مچ پم
+کوڈمٹض بسڈ فم زگرلق قٹ اغلضف ریلقط ٹب چہے چظ سے تپضچ غثر
+شے ع۔"
+"p08-pseudo-naskh-canonical","google/gemini-3.7-flash","ڈتسےاھر دضر زیھژ رک وگک رد ے جی
+عچکےوس بگا عم تشھل گہ مچ پم کوڈمٹض
+بسڈ فم زگرلق قٹ اغکضف رییلقط ٹب
+چہےچظ ےتپضچ غژ شےع۔"
+"p09-natural-nastaliq-canonical","google/gemini-3.7-flash","تعلیم یا آموزش اپنے وسیع تر معنوں میں وہ چیز ہے جس کے ذریعے لوگوں کے کسی گروہ کی عادات اور اہداف ایک نسل سے دوسری نسل کو منتقل ہوتے ہیں۔"
+"p09-natural-naskh-canonical","google/gemini-3.7-flash","تعلیم یا آموزش اپنے وسیع تر معنوں میں وہ
+چیز ہے جس کے ذریعے لوگوں کے کسی گروہ کی
+عادات اور اہداف ایک نسل سے دوسری نسل کو
+منتقل ہوتے ہیں۔"
+"p09-shuffled-nastaliq-canonical","google/gemini-3.7-flash","کے نسل ایک وسیع گروہ منتقل تر میں وہ معنوں کے اور کو دوسری کسی
+لوگوں ہوتے یا ہیں۔ ذریعے چیز عادات آموزش تعلیم اہداف اپنے ہے
+نسل جس کی سے"
+"p09-shuffled-naskh-canonical","google/gemini-3.7-flash","کے نسل ایک وسیع گروہ منتقل تر میں وہ معنوں
+کے اور کو دوسری کسی لوگوں ہوتے یا ہیں۔
+ذریعے چیز عادات آموزش تعلیم اہداف اپنے ہے
+نسل جس کی سے"
+"p09-pseudo-nastaliq-canonical","google/gemini-3.7-flash","لچقض ضگ ہپگھپ بھی طمعغ چس ژیزپگ سغط ہپ کاظ سے دھ عش
+
+گاے کج چسے و ف پ تلگش ضگلص شرے قہے ز کلو شضے پپ دپگ ھظزر
+
+صیہظ طنپ ٹگ طدظہت کسن ھوی۔"
+"p09-pseudo-naskh-canonical","google/gemini-3.7-flash","لچحقض ضگ ہپگھپ بھپی طمعغ چر ژیزپگ
+سغط ہپ کاظ ےد بھ عش گاےکج چسےیو فپ
+طگش ضگلص شر ےقہےز کلو شضےپپ دپگ
+ھظز بر صیپہظ طنپ ٹگ طدظہت کسن ھوی۔"
+"p10-natural-nastaliq-canonical","google/gemini-3.7-flash","اپنے وسیع تر مفہوم میں ہر وہ تحریر جو کسی شکل میں محفوظ کی گئی ہو کتاب کہلاتی ہے۔"
+"p10-natural-naskh-canonical","google/gemini-3.7-flash","اپنے وسیع تر مفہوم میں ہر وہ تحریر جو کسی
+شکل میں محفوظ کی گئی ہو کتاب کہلاتی ہے۔"
+"p10-shuffled-nastaliq-canonical","google/gemini-3.7-flash","شکل تحریر تر کتاب مفہوم گئی جو کسی اپنے ہے ۔ وسیع کی وہ ہو محفوظ میں
+میں کہلاتی ہر"
+"p10-shuffled-naskh-canonical","google/gemini-3.7-flash","شکل تحریر تر کتاب مفہوم گئی جو کسی اپنے
+ہے۔ وسیع کی وہ ہو محفوظ میں میں کہلاتی ہر"
+"p10-pseudo-nastaliq-canonical","google/gemini-3.7-flash","گصزت سکتغ لے بڈغوک ضطف چط ژچ ڈیبچھ صا عہوپکپ غلھ گڈنبط
+شع بکت ات ڈے فک قپرتمثرٹں۔"
+"p10-pseudo-naskh-canonical","google/gemini-3.7-flash","گصزت سکتغ لے بڈغوگ ضطف چط ژچ ڈیجہھ
+صا عھو پکپ غلھ گڈنپط شع بکت ات ڈےفک
+قپرتمژ ٹن۔"
+"p11-natural-nastaliq-canonical","google/gemini-3.7-flash","بارش بادلوں سے زمین کی سطح پر پانی کے قطروں کا علاحدہ علاحدہ گرنے
+کے عمل کو کہتے ہیں۔"
+"p11-natural-naskh-canonical","google/gemini-3.7-flash","بارش بادلوں سے زمین کی سطح پر پانی کے قطروں کا علاحدہ علاحدہ گرنے کے عمل کو کہتے ہیں۔"
+"p11-shuffled-nastaliq-canonical","google/gemini-3.7-flash","پانی زمین بادلوں کا کہتے بارش گرنے علاحدہ کے سطح پر کے سے ہیں۔
+علاحدہ قطروں کی عمل کو"
+"p11-shuffled-naskh-canonical","google/gemini-3.7-flash","پانی زمین بادلوں کا کہتے بارش گرنے علاحدہ کے
+سطح پر کے سے ہیں۔ علاحدہ قطروں کی عمل
+کو"
+"p11-pseudo-nastaliq-canonical","google/gemini-3.7-flash","طوژں مگلگٹڑے س لنتگ اغ و بہ بص ہزع گگ ضاپشک تم وژ یھعل
+ے درساپ ططعں فا ظژغ ے دپعے ژگط۔"
+"p11-pseudo-naskh-canonical","google/gemini-3.7-flash","طوژں مگلگژ ےس لنتگ اغ وبہ بص ہزکع گگ
+ضاپشک تم وژیهعل ےدرساپ ططعں فا ظژغ ےد
+پععے ژگط۔"
+"p12-natural-nastaliq-canonical","google/gemini-3.7-flash","زمین سورج سے تیسرا سیارہ ہے اور واحد فلکیاتی جسم ہے جس پر زندگی موجود ہے۔"
+"p12-natural-naskh-canonical","google/gemini-3.7-flash","زمین سورج سے تیسرا سیارہ ہے اور واحد
+فلکیاتی جسم ہے جس پر زندگی موجود ہے۔"
+"p12-shuffled-nastaliq-canonical","google/gemini-3.7-flash","واحد جس فلکیاتی جسم سورج زندگی تیسرا پر ہے موجود اور سیارہ ہے۔
+زمین ہے سے"
+"p12-shuffled-naskh-canonical","google/gemini-3.7-flash","واحد جس فلکیاتی جسم سورج زندگی تیسرا پر
+ہے موجود اور سیارہ ہے۔ زمین ہے سے"
+"p12-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ر شبغ ہپرش لججھع زدکمق ژظ ٹبڈ یجکم ویقزر بز شزٹ گژ قن قس گعہچت
+ڈگظکم وق۔"
+"p12-pseudo-naskh-canonical","google/gemini-3.7-flash","رشبغ ہپر س ش لجھع زدکمق ژظ ٹبڈ یجکم
+ویقزربز شزٹ گژ من قس گھپت ڈگظکم وق۔"
+"p13-natural-nastaliq-canonical","google/gemini-3.7-flash","نظامِ شمسی سورج اور ان تمام اجرامِ فلکی کے مجموعے کو کہتے ہیں جو براہ راست یا بالواسطہ طور پر سورج کی ثقلی گرفت میں ہیں۔"
+"p13-natural-naskh-canonical","google/gemini-3.7-flash","نظامِ شمسی سورج اور ان تمام اجرام فلکی کے مجموعے کو کہتے ہیں جو براہ راست یا بالواسطہ طور پر سورج کی ثقلی گرفت میں ہیں۔"
+"p13-shuffled-nastaliq-canonical","google/gemini-3.7-flash","کو ہیں۔ ہیں سورج ثقلی جو میں اور تمام شمسی بالواسطہ فلکی کہتے گرفت
+براہ مجموعے راست سورج کی طور نظامِ کے اجرام پر یا ان"
+"p13-shuffled-naskh-canonical","google/gemini-3.7-flash","کو ہیں۔ ہیں سورج ثقلی جو میں اور تمام شمسی
+بالواسطہ فلکی کہتے گرفت براہ مجموعے راست
+سورج کی طور نظامِ کے اجرام پر یا ان"
+"p13-pseudo-nastaliq-canonical","google/gemini-3.7-flash","ے زِظع جقنبج بلسغ ے گع گھ شسے ں سطعو ڈلپ خط ژچطٹڈے ورپٹدو فژر
+
+غس نبفد ے مجظ پہ ز طقھصہدط ضصض کک گیشے ژؕ صلرغ نصقع لطل
+
+مسد۔"
+"p13-pseudo-naskh-canonical","google/gemini-3.7-flash","ےزظِغ جقنج بلسغ ےگع گھ شسے ں سطععو ڈلپ
+ضط ژچطتٹے ور پٹدد فژر غس نبفد ےمجظ پہ
+زطقھصھدط ظصض کک گیشے ٹژ صلرغ نصقع
+لطل مسد۔"
+"p14-natural-nastaliq-canonical","google/gemini-3.7-flash","پانی، آب یا ماء ایک بے رنگ، بے بو اور بے ذائقہ مائع ہے۔"
+"p14-natural-naskh-canonical","google/gemini-3.7-flash","پانی ، آب یا ماء ایک بے رنگ، بے بو اور بے ذائقہ
+مائع ہے۔"
+"p14-shuffled-nastaliq-canonical","google/gemini-3.7-flash","آب ہے۔ مائع اور، ایک بے ماء پانی یا ذائقہ بے رنگ، بے بو"
+"p14-shuffled-naskh-canonical","google/gemini-3.7-flash","آب ہے۔ مائع اور ، ایک بے ماء پانی یا ذائقہ بے
+رنگ، بے بو"
+"p14-pseudo-nastaliq-canonical","google/gemini-3.7-flash","مولا، گگ ھش دتھ کزاچق غقو، تل طے زہس ڈن رژچھن رٹیچ کش۔"
+"p14-pseudo-naskh-canonical","google/gemini-3.7-flash","مولا ، گگ ھش دتھ کزا چق غقو، تل طے زہس ڈن
+رڑچعن رٹٹچ کش۔"
+"p15-natural-nastaliq-canonical","google/gemini-3.7-flash","تاریخ جامع انسانی کے انفرادی و اجتماعی اعمال و افعال اور کردار کی آئینہ دار ہوتی ہے۔"
+"p15-natural-naskh-canonical","google/gemini-3.7-flash","تاریخ جامع انسانی کے انفرادی و اجتماعی اعمال
+و افعال اور کردار کی آئینہ دار ہوتی ہے۔"
+"p15-shuffled-nastaliq-canonical","google/gemini-3.7-flash","افعال اور انسانی اعمال اجتماعی و کی تاریخ و کے جامع انفرادی دار ہوتی
+آئینہ ہے۔ کردار"
+"p15-shuffled-naskh-canonical","google/gemini-3.7-flash","افعال اور انسانی اعمال اجتماعی و کی تاریخ و
+کے جامع انفرادی دار ہوتی آئینہ ہے۔ کردار"
+"p15-pseudo-nastaliq-canonical","google/gemini-3.7-flash","شژھٹڈ ظظفث مطمقگ ضل حطچے قص ف ضفز گپھض توز ھی رد سھٹڑ سضا
+صھز ے پ نل ھچھیز صاژ یھبو شر۔"
+"p15-pseudo-naskh-canonical","google/gemini-3.7-flash","شژھتڈ ظظفژ مطمقنگ ضل چطبچےقص ف
+ضفزگپھض توزهی ر دسھٹژ سضا صھزےپ نل
+ھچھیز ساژ یھبو شر۔"

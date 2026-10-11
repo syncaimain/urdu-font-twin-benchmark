@@ -1,0 +1,6 @@
+{
+  "status": {
+    "available": false,
+    "reason": "tesseract executable not found"
+  }
+}
