@@ -15,7 +15,10 @@ results/kaggle_all_models_v8/
 results/kaggle_build_v4/
 results/kaggle_probe_v*/
 results/kaggle_runs/
+results/all_models/quota_resume.log
+results/full/quota_run.log
 kaggle_dataset/
+kaggle_dataset_full/
 media/audio/
 media/clips/
 media/concat.txt

@@ -218,7 +218,9 @@ def font_codepoints(path: Path) -> set[int]:
     return {cp for table in font["cmap"].tables for cp in table.cmap}
 
 
-def create_contact_sheet(records: Iterable[dict], output: Path) -> None:
+def create_contact_sheet(
+    records: Iterable[dict], output: Path, max_pairs_per_sheet: int | None = None
+) -> list[Path]:
     rows = list(records)
     grouped: dict[str, dict[str, dict]] = {}
     for record in rows:
@@ -226,25 +228,54 @@ def create_contact_sheet(records: Iterable[dict], output: Path) -> None:
             continue
         grouped.setdefault(record["pair_id"], {})[record["font_key"]] = record
     pairs = [item for item in grouped.values() if set(item) == {"nastaliq", "naskh"}]
-    thumb_size = (600, 270)
-    label_width, header_height, gap = 150, 46, 10
-    sheet = Image.new("RGB", (label_width + 2 * thumb_size[0] + gap, header_height + len(pairs) * thumb_size[1]), "white")
-    draw = ImageDraw.Draw(sheet)
-    label_font = ImageFont.load_default(size=16)
-    draw.text((label_width + 10, 12), "Noto Nastaliq Urdu", fill="black", font=label_font)
-    draw.text((label_width + thumb_size[0] + gap + 10, 12), "Noto Naskh Arabic", fill="black", font=label_font)
-    for row_index, pair in enumerate(pairs):
-        y = header_height + row_index * thumb_size[1]
-        left_record = pair["nastaliq"]
-        draw.text((8, y + 8), f"{left_record['source_id']}\n{left_record['condition']}", fill="black", font=label_font)
-        for col, key in enumerate(("nastaliq", "naskh")):
-            image = Image.open(pair[key]["image_path"]).convert("RGB")
-            image.thumbnail(thumb_size, Image.Resampling.LANCZOS)
-            x = label_width + col * (thumb_size[0] + gap)
-            sheet.paste(image, (x, y))
-        draw.line((0, y + thumb_size[1] - 1, sheet.width, y + thumb_size[1] - 1), fill="#dddddd")
-    output.parent.mkdir(parents=True, exist_ok=True)
-    sheet.save(output, optimize=True)
+    page_size = max_pairs_per_sheet or max(1, len(pairs))
+    page_groups = [pairs[index : index + page_size] for index in range(0, len(pairs), page_size)]
+    outputs = []
+    for page_index, page_pairs in enumerate(page_groups, start=1):
+        page_output = (
+            output
+            if len(page_groups) == 1
+            else output.with_name(f"{output.stem}_page_{page_index:02d}{output.suffix}")
+        )
+        thumb_size = (600, 270)
+        label_width, header_height, gap = 150, 46, 10
+        sheet = Image.new(
+            "RGB",
+            (label_width + 2 * thumb_size[0] + gap, header_height + len(page_pairs) * thumb_size[1]),
+            "white",
+        )
+        draw = ImageDraw.Draw(sheet)
+        label_font = ImageFont.load_default(size=16)
+        draw.text((label_width + 10, 12), "Noto Nastaliq Urdu", fill="black", font=label_font)
+        draw.text(
+            (label_width + thumb_size[0] + gap + 10, 12),
+            "Noto Naskh Arabic",
+            fill="black",
+            font=label_font,
+        )
+        for row_index, pair in enumerate(page_pairs):
+            y = header_height + row_index * thumb_size[1]
+            left_record = pair["nastaliq"]
+            draw.text(
+                (8, y + 8),
+                f"{left_record['source_id']}\n{left_record['condition']}",
+                fill="black",
+                font=label_font,
+            )
+            for col, key in enumerate(("nastaliq", "naskh")):
+                with Image.open(pair[key]["image_path"]) as source:
+                    image = source.convert("RGB")
+                image.thumbnail(thumb_size, Image.Resampling.LANCZOS)
+                x = label_width + col * (thumb_size[0] + gap)
+                sheet.paste(image, (x, y))
+            draw.line(
+                (0, y + thumb_size[1] - 1, sheet.width, y + thumb_size[1] - 1),
+                fill="#dddddd",
+            )
+        page_output.parent.mkdir(parents=True, exist_ok=True)
+        sheet.save(page_output, optimize=True)
+        outputs.append(page_output)
+    return outputs
 
 
 def calibration_report(output: Path = Path("assets/font_calibration.json")) -> dict:

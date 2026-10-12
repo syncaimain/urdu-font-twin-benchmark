@@ -17,15 +17,15 @@ def result_dict(run_file: Path) -> dict:
     return {}
 
 
-def classify(result: dict) -> str:
+def classify(result: dict, expected_images: int = 90, expected_priors: int = 45) -> str:
     if result.get("status") == "vision_canary_failed":
         return "vision_canary_failed"
     images = int(result.get("completed_images") or 0)
     priors = int(result.get("text_prior_completed") or 0)
     image_failures = int(result.get("failed_images") or 0)
-    if images == 90 and image_failures == 0 and priors == 45:
+    if images == expected_images and image_failures == 0 and priors == expected_priors:
         return "complete"
-    if images == 90 and image_failures == 0:
+    if images == expected_images and image_failures == 0:
         return "image_complete_prior_partial"
     if images:
         return "image_partial"
@@ -68,7 +68,9 @@ def rank(row: dict) -> tuple[int, int, int, int]:
     return order[row["classification"]], row["completed_images"], row["text_prior_completed"], row["version"]
 
 
-def discover(roots: list[Path]) -> list[dict]:
+def discover(
+    roots: list[Path], expected_images: int = 90, expected_priors: int = 45
+) -> list[dict]:
     rows = []
     for root in roots:
         version = int(root.name)
@@ -86,7 +88,7 @@ def discover(roots: list[Path]) -> list[dict]:
                     "model": model_dir.name,
                     "version": version,
                     "run_id": int(run_dir.name),
-                    "classification": classify(result),
+                    "classification": classify(result, expected_images, expected_priors),
                     "canary_failure_reason": canary_failure_reason(run_dir, result),
                     "vision_canary_passed": bool(result.get("vision_canary_passed", False)),
                     "completed_images": int(result.get("completed_images") or 0),
@@ -99,8 +101,14 @@ def discover(roots: list[Path]) -> list[dict]:
     return rows
 
 
-def consolidate(roots: list[Path], expected_models: Path, output_dir: Path) -> None:
-    discovered = discover(roots)
+def consolidate(
+    roots: list[Path],
+    expected_models: Path,
+    output_dir: Path,
+    expected_images: int = 90,
+    expected_priors: int = 45,
+) -> None:
+    discovered = discover(roots, expected_images, expected_priors)
     best = {}
     for row in discovered:
         if row["model"] not in best or rank(row) > rank(best[row["model"]]):
@@ -116,13 +124,13 @@ def consolidate(roots: list[Path], expected_models: Path, output_dir: Path) -> N
     prior_frames = []
     for row in best.values():
         run_dir = Path(row["run_directory"])
-        if row["completed_images"] == 90 and row["failed_images"] == 0:
+        if row["completed_images"] == expected_images and row["failed_images"] == 0:
             path = run_dir / "urdu_font_twin_predictions.csv"
             if path.is_file():
                 frame = pd.read_csv(path)
                 frame["model"] = row["model"]
                 image_frames.append(frame[["image_id", "model", "prediction"]])
-        if row["text_prior_completed"] == 45:
+        if row["text_prior_completed"] == expected_priors:
             path = run_dir / "urdu_text_prior_predictions.csv"
             if path.is_file():
                 frame = pd.read_csv(path)
@@ -143,8 +151,16 @@ def main() -> None:
     parser.add_argument("--run-root", type=Path, action="append", required=True)
     parser.add_argument("--expected-models", type=Path, default=Path("assets/kaggle_models.txt"))
     parser.add_argument("--output-dir", type=Path, default=Path("results/all_models"))
+    parser.add_argument("--expected-images", type=int, default=90)
+    parser.add_argument("--expected-priors", type=int, default=45)
     args = parser.parse_args()
-    consolidate(args.run_root, args.expected_models, args.output_dir)
+    consolidate(
+        args.run_root,
+        args.expected_models,
+        args.output_dir,
+        args.expected_images,
+        args.expected_priors,
+    )
 
 
 if __name__ == "__main__":

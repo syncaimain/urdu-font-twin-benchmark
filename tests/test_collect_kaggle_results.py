@@ -25,3 +25,12 @@ def test_complete_run_outranks_newer_failed_run():
         "version": 9,
     }
     assert rank(complete) > rank(failed)
+
+
+def test_classify_supports_full_60_source_benchmark():
+    result = {
+        "completed_images": 360,
+        "failed_images": 0,
+        "text_prior_completed": 180,
+    }
+    assert classify(result, expected_images=360, expected_priors=180) == "complete"

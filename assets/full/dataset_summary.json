@@ -1,0 +1,25 @@
+{
+  "source_items": 60,
+  "conditions": [
+    "natural",
+    "shuffled",
+    "pseudo"
+  ],
+  "font_pairs": 180,
+  "images": 360,
+  "resolution_scales": [
+    1.0
+  ],
+  "canvas": [
+    1600,
+    900
+  ],
+  "normalization": "Unicode NFC; whitespace collapsed; distinct Urdu letters are never folded",
+  "source": "Urdu Wikipedia revision-pinned excerpts, CC BY-SA 4.0",
+  "contact_sheets": [
+    "assets/full/contact_sheets/full_contact_sheet_page_01.png",
+    "assets/full/contact_sheets/full_contact_sheet_page_02.png",
+    "assets/full/contact_sheets/full_contact_sheet_page_03.png",
+    "assets/full/contact_sheets/full_contact_sheet_page_04.png"
+  ]
+}

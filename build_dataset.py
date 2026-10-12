@@ -84,8 +84,12 @@ def build_dataset(
     source_path: Path,
     output_dir: Path,
     manifest_path: Path,
-    limit: int = 15,
+    limit: int = 60,
     resolution_scales: tuple[float, ...] = (1.0,),
+    contact_sheet_path: Path = Path("assets/full/contact_sheets/full_contact_sheet.png"),
+    summary_path: Path = Path("assets/full/dataset_summary.json"),
+    contact_sheet_page_size: int = 45,
+    canvas: tuple[int, int] = (1600, 900),
 ) -> list[dict]:
     sources = json.loads(source_path.read_text(encoding="utf-8"))[:limit]
     if len(sources) < limit:
@@ -106,7 +110,7 @@ def build_dataset(
             pair_id = f"p{source_index:02d}-{condition}"
             text_hash = stable_hash(text)
             for font_key, spec in FONT_SPECS.items():
-                canonical = renderers[font_key].render(text)
+                canonical = renderers[font_key].render(text, canvas=canvas)
                 for scale in resolution_scales:
                     resolution = "canonical" if scale == 1.0 else f"scale-{scale:g}"
                     image_id = f"{pair_id}-{font_key}-{resolution}"
@@ -143,7 +147,9 @@ def build_dataset(
     manifest_path.write_text(
         "".join(json.dumps(record, ensure_ascii=False) + "\n" for record in records), encoding="utf-8"
     )
-    create_contact_sheet(records, Path("assets/contact_sheets/pilot_contact_sheet.png"))
+    contact_sheets = create_contact_sheet(
+        records, contact_sheet_path, max_pairs_per_sheet=contact_sheet_page_size
+    )
     _build_canaries(renderers)
     summary = {
         "source_items": len(sources),
@@ -151,10 +157,13 @@ def build_dataset(
         "font_pairs": len(sources) * len(CONDITIONS),
         "images": len(records),
         "resolution_scales": list(resolution_scales),
+        "canvas": list(canvas),
         "normalization": "Unicode NFC; whitespace collapsed; distinct Urdu letters are never folded",
         "source": "Urdu Wikipedia revision-pinned excerpts, CC BY-SA 4.0",
+        "contact_sheets": [str(path).replace("\\", "/") for path in contact_sheets],
     }
-    Path("assets/dataset_summary.json").write_text(
+    summary_path.parent.mkdir(parents=True, exist_ok=True)
+    summary_path.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return records
@@ -187,13 +196,34 @@ def _build_canaries(renderers: dict[str, UrduRenderer]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, default=Path("assets/source/urdu_wikipedia.json"))
-    parser.add_argument("--output-dir", type=Path, default=Path("assets/images"))
-    parser.add_argument("--manifest", type=Path, default=Path("assets/manifest.jsonl"))
-    parser.add_argument("--limit", type=int, default=15)
+    parser.add_argument("--source", type=Path, default=Path("assets/full/source/urdu_wikipedia.json"))
+    parser.add_argument("--output-dir", type=Path, default=Path("assets/full/images"))
+    parser.add_argument("--manifest", type=Path, default=Path("assets/full/manifest.jsonl"))
+    parser.add_argument("--limit", type=int, default=60)
     parser.add_argument("--resolution-scales", type=float, nargs="+", default=[1.0])
+    parser.add_argument(
+        "--contact-sheet",
+        type=Path,
+        default=Path("assets/full/contact_sheets/full_contact_sheet.png"),
+    )
+    parser.add_argument(
+        "--summary", type=Path, default=Path("assets/full/dataset_summary.json")
+    )
+    parser.add_argument("--contact-sheet-page-size", type=int, default=45)
+    parser.add_argument("--canvas-width", type=int, default=1600)
+    parser.add_argument("--canvas-height", type=int, default=900)
     args = parser.parse_args()
-    records = build_dataset(args.source, args.output_dir, args.manifest, args.limit, tuple(args.resolution_scales))
+    records = build_dataset(
+        args.source,
+        args.output_dir,
+        args.manifest,
+        args.limit,
+        tuple(args.resolution_scales),
+        args.contact_sheet,
+        args.summary,
+        args.contact_sheet_page_size,
+        (args.canvas_width, args.canvas_height),
+    )
     print(f"Built {len(records)} images ({len(records) // 2} font pairs) and {args.manifest}")
 
 

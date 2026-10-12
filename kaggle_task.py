@@ -1,5 +1,5 @@
 # %%
-"""Kaggle Benchmarks task for the Urdu font-twin pilot."""
+"""Kaggle Benchmarks task for the Urdu font-twin benchmark."""
 
 import os
 import re
@@ -14,6 +14,9 @@ from kaggle_benchmarks.content_types import images
 
 
 DATASET_CANDIDATES = [
+    Path("/kaggle/input/urdu-font-twin-60"),
+    Path("/kaggle/input/datasets/huzaifa12344/urdu-font-twin-60"),
+    Path("/kaggle/input/huzaifa12344/urdu-font-twin-60"),
     Path("/kaggle/input/urdu-font-twin-pilot"),
     Path("/kaggle/input/datasets/huzaifa12344/urdu-font-twin-pilot"),
     Path("/kaggle/input/huzaifa12344/urdu-font-twin-pilot"),
@@ -174,7 +177,7 @@ def paired_gaps(items: pd.DataFrame) -> dict:
 # %%
 @kbench.task(
     name="Reading or Guessing Urdu Font Twins",
-    description="Paired Urdu OCR across font styles and language conditions.",
+    description="Paired Urdu OCR across Nastaliq/Naskh font twins and language conditions.",
 )
 def urdu_font_twin_benchmark(llm) -> dict:
     canaries = pd.read_csv(DATASET_ROOT / "canaries.csv", dtype=str).fillna("")

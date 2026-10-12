@@ -29,6 +29,8 @@ Every item is rendered twice: once in **Noto Nastaliq Urdu** and once in **Noto 
 
 The pilot has **15 source items x 3 conditions x 2 fonts = 90 images**, organized as 45 exact-text font pairs.
 
+> **Expansion update:** Kaggle task v10 now contains **60 source items x 3 conditions x 2 fonts = 360 images**, or 180 exact-text font pairs. All 360 images passed offline rendering validation. An eight-model, pilot-verified lineup is preregistered for the full run; those scores remain pending Kaggle quota and are not mixed into the pilot findings below.
+
 ![Pilot design](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/02-experimental-design.png)
 
 ### Rendering was part of the experiment
@@ -107,7 +109,7 @@ The canaries were also informative. A model name appearing in a multimodal catal
 
 ### What I would measure next
 
-The next run will complete the retry-eligible endpoints, add 0.5x and 0.25x resolution strata, and increase the source set from 15 to 60 items. I also want to add Tesseract Urdu and a public UrduOCR checkpoint, but only when the executable/model artifact and its reuse license are verifiably available. The core analysis will remain paired: the question is not merely which model has lower CER, but whether the *same model reading the same string* changes when only its Urdu font changes.
+The 60-source set is now rendered, validated, and published as task v10. The next run will complete its eight-model evaluation, then add 0.5x and 0.25x resolution strata. I also want to add Tesseract Urdu and a public UrduOCR checkpoint, but only when the executable/model artifact and its reuse license are verifiably available. The core analysis will remain paired: the question is not merely which model has lower CER, but whether the *same model reading the same string* changes when only its Urdu font changes.
 
 ## Video Walkthrough
 
@@ -119,7 +121,7 @@ The next run will complete the retry-eligible endpoints, add 0.5x and 0.25x reso
 
 The Kaggle task, code, reproducible assets, font-validation report, and current run history are here:
 
-- **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins, version 9](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/9)
+- **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins, version 10](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/10)
 - **Source and reproducibility bundle:** [syncaimain/urdu-font-twin-benchmark](https://github.com/syncaimain/urdu-font-twin-benchmark)
 
 The repository includes the deterministic renderer, source manifest, font licenses, canaries, metric implementation, analysis scripts, tests, contact sheet, and machine-readable status ledger. No benchmark score in this post is estimated or filled in from missing data.
