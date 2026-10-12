@@ -27,9 +27,9 @@ I built a paired multimodal OCR benchmark with three language conditions:
 
 Every item is rendered twice: once in **Noto Nastaliq Urdu** and once in **Noto Naskh Arabic**. The two images in a pair contain the exact same NFC-normalized Unicode string and share a source-text SHA-256. The prompt is also identical: transcribe only what is visible, with no source text or font hint supplied to the model.
 
-The pilot has **15 source items x 3 conditions x 2 fonts = 90 images**, organized as 45 exact-text font pairs.
+The current benchmark has **60 source items x 3 conditions x 2 fonts = 360 images**, organized as 180 exact-text font pairs. The completed 15-source pilot remains a preregistered subset, so its findings can be reported separately without pretending that pending full-run outputs already exist.
 
-> **Expansion update:** Kaggle task v10 now contains **60 source items x 3 conditions x 2 fonts = 360 images**, or 180 exact-text font pairs. All 360 images passed offline rendering validation. An eight-model, pilot-verified lineup is preregistered for the full run; those scores remain pending Kaggle quota and are not mixed into the pilot findings below.
+> **Evaluation status:** all 360 images have passed offline rendering validation. The eight-model full run is attached to public Kaggle task v10 and scheduled for the next AI-quota window. The numerical findings below are explicitly from the completed 15-source pilot; Kaggle will show the full results in place when those runs finish.
 
 ![Pilot design](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/02-experimental-design.png)
 
@@ -43,7 +43,7 @@ This benchmark would be meaningless if one font silently fell back, clipped glyp
 - calibrated each font against visible text height instead of assigning the same nominal point size; and
 - generated a contact sheet for human inspection.
 
-Offline validation passed all **90 images and 45 pairs**, with no missing codepoints, fallback, Unicode mismatch, clipping, or blank render.
+Offline validation passed all **360 images and 180 pairs**, with no missing codepoints, fallback, Unicode mismatch, clipping, or blank render. Four rendered contact-sheet pages are included for human verification.
 
 The text is public and traceable. Each natural sentence records its Urdu Wikipedia page URL and revision ID under CC BY-SA 4.0. I did **not** add examples from the Urdu Newspaper Benchmark because its linked public data did not expose a dataset license that I could verify.
 
@@ -57,23 +57,24 @@ Two simple vision canaries, a large number and a short Urdu word, run before the
 
 ## Models Tested
 
-I queried Kaggle's available 46-model catalog. The first expansion pass reached Kaggle's daily AI quota, so the current paired analysis includes the seven endpoints that completed all 90 image prompts:
+I first queried Kaggle's available 46-model catalog as an endpoint audit. Fifteen models completed all 90 pilot images and all 45 text-prior controls, two more completed every pilot image with partial prior controls, four produced partial image runs, and 25 failed the vision canaries or endpoint checks. Partial runs are retained for audit but excluded from paired plots; missing results are never imputed.
+
+For the full 60-source experiment, I preregistered eight endpoints that passed the pilot vision canaries and completed its entire image set:
 
 - Anthropic Claude Haiku 4.5
 - Anthropic Claude Haiku 5.5
-- Anthropic Claude Sonnet 5
-- Anthropic Claude Sonnet 5.5
+- Google Gemini 3 Flash Preview
+- Google Gemini 3.5 Flash
 - Google Gemini 3.5 Flash-Lite
+- Google Gemini 3.6 Flash
 - Google Gemini 3.7 Flash
 - OpenAI GPT-5.4 Mini
 
-Four of these also completed all 45 masked text-only prior controls. Partial image runs are retained for audit but excluded from the paired plots. Missing results are never imputed. The retry task uses a larger canary token allowance for reasoning models and will continue after quota refresh.
+This lineup balances two model families with endpoints that were reliable enough to support a complete paired experiment under Kaggle's quota. The task will request 360 image transcriptions and 180 text-only prior controls from each model.
 
-That incompleteness is worth stating plainly: this is a **validated pilot and an in-progress 46-model evaluation**, not a finished universal ranking.
+## Pilot Findings
 
-## Findings
-
-The clearest completed run was Gemini 3.7 Flash. Its mean Nastaliq-minus-Naskh CER gap was:
+The following results are from the completed 15-source pilot, not the pending 60-source run. The clearest early run was Gemini 3.7 Flash. Its mean Nastaliq-minus-Naskh CER gap was:
 
 | Condition | Paired CER gap | 95% bootstrap interval |
 |---|---:|---:|
@@ -85,7 +86,7 @@ Its pseudo-word WER gap was **+40.89 points**. Nastaliq pseudo-word outputs intr
 
 ![Character error rate heatmap](https://raw.githubusercontent.com/syncaimain/urdu-font-twin-benchmark/main/media/screenshots/03-cer-heatmap.png)
 
-The multi-model picture is more interesting than a single clean headline:
+The first seven-model comparable checkpoint was more interesting than a single clean headline:
 
 | Image-complete model | Pseudo CER gap | 95% bootstrap interval |
 |---|---:|---:|
@@ -109,7 +110,7 @@ The canaries were also informative. A model name appearing in a multimodal catal
 
 ### What I would measure next
 
-The 60-source set is now rendered, validated, and published as task v10. The next run will complete its eight-model evaluation, then add 0.5x and 0.25x resolution strata. I also want to add Tesseract Urdu and a public UrduOCR checkpoint, but only when the executable/model artifact and its reuse license are verifiably available. The core analysis will remain paired: the question is not merely which model has lower CER, but whether the *same model reading the same string* changes when only its Urdu font changes.
+The 60-source set is now rendered, validated, and published as task v10. Its eight-model evaluation is the immediate next result; after that I will add 0.5x and 0.25x resolution strata. I also want to add Tesseract Urdu and a public UrduOCR checkpoint, but only when the executable/model artifact and its reuse license are verifiably available. The core analysis will remain paired: the question is not merely which model has lower CER, but whether the *same model reading the same string* changes when only its Urdu font changes.
 
 ## Video Walkthrough
 
@@ -119,7 +120,7 @@ The 60-source set is now rendered, validated, and published as task v10. The nex
 
 ## My Benchmark
 
-The Kaggle task, code, reproducible assets, font-validation report, and current run history are here:
+The Kaggle task, code, 360 reproducible image assets, four contact-sheet pages, font-validation report, and current run history are here:
 
 - **Kaggle Benchmark:** [Reading or Guessing? Urdu Font Twins, version 10](https://www.kaggle.com/benchmarks/tasks/huzaifa12344/reading-or-guessing-urdu-font-twins/10)
 - **Source and reproducibility bundle:** [syncaimain/urdu-font-twin-benchmark](https://github.com/syncaimain/urdu-font-twin-benchmark)
